@@ -21,7 +21,7 @@ class ExceptionHandlerTest {
     @MockBean
     private BaggageService baggageService;
     @Test
-    void handleEntityNotFoundException_shouldReturnBadRequest() throws Exception {
+    void handleEntityNotFoundException() throws Exception {
         long destinationId = 1L;
         long baggageId = 2L;
 
